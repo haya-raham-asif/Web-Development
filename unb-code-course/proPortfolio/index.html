@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio-styles.css">
+    <title>Haya's Portfolio</title>
+</head>
+<body>
+    
+<div id = "title">
+
+    <div class="namecon">
+        <p class="name">Haya Asif</p>
+    </div>
+
+    <div id="aboutme">
+        <a href="#profile">About Me</a>
+    </div>
+        
+    <div id="contact">
+        <a href="#ccontact">Contact</a>   
+    </div>
+        
+    <div id="portfolio">
+        <a href="#mywork">Portfolio</a>   
+    </div>
+
+</div>
+
+<img src="./assets/background.png" alt="purple and pink wavy background">
+
+
+
+<div class="categories">
+    <div id="profile" class="subject">
+        <p>About Haya</p>
+    </div>
+        <p class="text">Haya Asif is a 14 year old girl in grade 8 that goes to George Street Middle School. Despite her young age she has many achviements such as 2 Student of the Year awards, a bronze medal in KenKen, and a dazzling report card bound to blind anyone who looks at it. Haya is an experienced coder in Python with 5+ years worth of experience, while also learning web development languages such as Javascript, HTML and CSS. She has also run a summer Scratch course for young kids, introducing them to computer coding and creating games, and is currently tutoring children (as of right now, 1 child) in math. She is known for her witty remarks, intense debates, cooking expertise and babysitting skills.</p>
+</div>
+
+<br>
+<br>
+
+<div class="categories">
+    <table cellspacing="0">
+        <tr>
+            <td>
+                <p></p>
+            </td>
+
+            <td>
+                <div id="job1">
+                    <img class="img" src="./assets/scissors.png" alt="scissors">
+                    <div>
+                        <a class="project" href="http://127.0.0.1:5500/RockPaperScissors/index.html">Rock Paper Scissors Game</a>
+                    </div>
+                </div>
+            </td>
+
+            <td>
+                <div id="job2">
+                    <img class="img" src="./assets/simonsays.png" alt="simon says game">
+                    <div>
+                        <a class="project"  href="http://127.0.0.1:5500/SimonSays/index.html">Simons Says</a>
+                    </div>
+                </div>
+            </td>
+            
+        </tr>
+
+        <tr>
+            <td>
+                <div id="mywork" class="subject">
+                    <p>Portfolio</p>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p></p>
+            </td>
+
+            <td>
+                <div id="job3">
+                    <img class="img" src="./assets/scratch.png" alt="scratch poster">
+                    <a class="project"  href="http://scratch.mit.edu">Scratch Summer Course</a>
+    
+                </div>
+            </td>
+
+            <td>
+                <div id="job4">
+                    <img class="img" src="./assets/mathgame.png" alt="Math Game">
+                    <a class="project"  href="http://127.0.0.1:5500/MathGame/index.html">Math Game</a>
+    
+                </div>
+            </td>
+            
+        </tr>
+
+    </table>   
+</div>
+
+
+<div id="ccontact">
+    <p id="info">Contact Me</p>
+    <form action="#" method="post">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message: </label>
+        <textarea name="message" id="message" required></textarea>
+
+        <input id="btn" type="submit" value="Send">
+
+    </form>
+</div>
+
+</body>
+</html>

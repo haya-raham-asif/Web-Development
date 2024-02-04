@@ -1,0 +1,201 @@
+body {
+    background-color: #EFBFBF;
+}
+
+.subtitle {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DA7D7A;
+    float: left;
+}
+
+/*nav bar*/
+
+.main-navbar {
+    border-bottom: 1px solid #DA7D7A;
+    display: block;
+}
+
+li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
+    display: inline;
+    padding-left: 40px
+}
+
+li:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #DA7D7A;
+}
+
+ul {
+    float: right;
+    display: table-row;
+    padding-right: 30px;
+}
+
+/* Haya Asif title */
+
+.maintitle {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DA7D7A;
+    padding-left: 40px
+
+
+}
+
+/* About Me */
+
+
+.profile {
+    padding-left: 40px;
+    border-bottom: 1px solid #DA7D7A;
+}
+
+
+.profileinfo {
+    padding-left: 30px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DA7D7A;
+    padding-bottom: 200px
+}
+
+.profilepic {
+    border: 2px solid #DA7D7A;
+    border-spacing: 40px;
+}
+
+
+/* projects */
+
+.portfolio {
+    padding-left: 20px;
+    border-bottom: 1px solid #DA7D7A;
+}
+
+.projects {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.mathgame {
+    border: 3px solid #DA7D7A;
+}
+
+.tdmathgame {
+    padding: 20px;
+}
+
+.mathgame:hover {
+    opacity: 0.7;
+    box-shadow: #DA7D7A;
+}
+
+.rps {
+    border: 3px solid #DA7D7A;
+}
+
+.tdrps {
+    padding: 20px;
+}
+
+.rps:hover {
+    opacity: 0.7;
+    box-shadow: #DA7D7A;
+}
+
+.scratch {
+    border: 3px solid #DA7D7A;
+}
+
+.tdscratch {
+    padding: 20px;
+}
+
+.scratch:hover {
+    opacity: 0.7;
+    box-shadow: #DA7D7A;
+}
+
+.simonsays {
+    border: 3px solid #DA7D7A;
+}
+
+.tdsimonsays {
+    padding: 20px;
+}
+
+.simonsays:hover {
+    opacity: 0.7;
+    box-shadow: #DA7D7A;
+}
+
+/* conatct */
+
+.contact {
+    padding-left: 20px;
+}
+
+input {
+    width: 100%;
+    font-size: 30px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 30px;
+}
+
+#info {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DA7D7A;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+label {
+    display: flex;
+    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #DA7D7A;
+    font-size: 30px;
+}
+
+#btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #DA7D7A;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+.send {
+    padding-top: 20px;
+}
+
+.send:hover {
+    opacity: 0.8;
+}
+
+form {
+    padding-left: 40%;
+}

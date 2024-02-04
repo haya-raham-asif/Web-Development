@@ -1,0 +1,31 @@
+body {
+    background-color: peachpuff;
+}
+
+#welcome-head {
+    font-size: 45px;
+    font-family: monospace;
+    color: peru;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.input {
+    height: 25px;
+    margin-right: 1%;
+}
+
+.input-header {
+    font-family: monospace;
+    font-size: 20px;
+    color: peru;
+    width: 13%;
+
+
+}
+/* # means id and . means class */
+

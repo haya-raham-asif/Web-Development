@@ -1,0 +1,63 @@
+
+#start :hover {
+    cursor: pointer;
+    text-underline-position: below;
+}
+
+#welcomeMessage {
+    font-weight: normal;
+    font-family: Asap, sans-serif;
+    text-align: center;
+
+}
+
+.word1 {
+    color: #CB4F40;
+    display: inline-block;
+}
+
+.word2 {
+    color: #4F87EC;
+    display: inline-block;
+}
+
+.word3 {
+    color: #EBB53E;
+    display: inline-block;
+}
+
+.word4 {
+    color: #479A5F;
+    display: inline-block;
+}
+
+.words {
+    font-family: Asap, sans-serif;
+    text-align: center;
+
+}
+
+#simon {
+    font-family: Asap, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.start {
+    border: 2px solid black;
+    width: 100px;
+    text-align: center;
+    border-radius: 0%;
+    padding-right: 0px;
+    margin: 10px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    font-family: Asap, sans-serif;
+}

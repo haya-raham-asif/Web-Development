@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 40px;
+    color: lightblue;
+}
+
+.wrapper button {
+    padding: 20px;
+    font-size: 20px;
+    color: lightskyblue;
+}
+
+#plus {
+    padding-right: 30px;
+}
+
+#minus {
+    padding-left: 30px;
+}

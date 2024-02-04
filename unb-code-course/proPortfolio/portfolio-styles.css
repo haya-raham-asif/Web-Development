@@ -1,0 +1,157 @@
+body {
+    background-color: #6a2b77;
+}
+
+#title {
+    display: flex;
+}
+
+a {
+    display: block;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#aboutme {
+    background-color: #622a6d;
+    padding-left: 64%;
+}
+
+#contact {
+    background-color: #622a6d;
+    padding-left: 15px;
+}
+
+#portfolio {
+    background-color: #622a6d;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+p {
+    color: white;
+}
+
+.namecon {
+    display: inline-block;
+    background-color: #592164;
+}
+
+.name {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 40px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+img {
+    width: 100%;
+}
+
+/* Main Content*/
+
+.categories {
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.subject {
+    font-size: 70px;
+    padding-right: 30px;
+}
+
+.text {
+    background-color: #713d7c;
+    font-size: 40px;
+    border-left: 5px solid white;
+    padding-left: 20px;
+}
+
+.img {
+    text-align: center;
+    color: white;
+    border: 5px solid white;
+    opacity: 0.4;
+}
+
+#mywork {
+    border-right: 5px solid white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#job2 {
+    width: 70%;
+    height: 40%;
+}
+
+#job3 {
+    width: 60%;
+    height: 80%;
+    border-left: 5px solid white;
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+#job4 {
+    width: 60%;
+    height: 50%;
+    padding-top: 50px;
+}
+
+#job1 {
+    width: 50%;
+    height: 60%;
+    border-left: 5px solid white;
+    padding-left: 40px;
+}
+
+.project {
+    display: inline-block;
+    color: white;
+    background-color: #53245c;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/*contact me*/
+
+#ccontact {
+    background-color: #9761a1;
+    padding: 60px;
+}
+
+#info {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+label {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+
+#btn {
+    text-align: center;
+
+    width: 60px;
+    height: 40px;
+
+}
+

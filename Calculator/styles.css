@@ -1,0 +1,49 @@
+.parent { 
+    display: grid; 
+    grid-template-columns: repeat(4, 70px); 
+    grid-template-rows: repeat(6, 70px); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    font-size: medium;
+    font-family: sans-serif;
+    }
+#calculator {
+    margin: auto;
+    width: 280px;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+#bar {
+    border: 1px solid black;
+    width: 270px;
+    height: 30px;
+}
+
+.options {
+    border: 1px solid black;
+    padding-top: 6px;
+    text-align: center;
+
+}
+
+.operations {
+    border: 1px solid black;
+    padding-top: 6px;
+    text-align: center;
+}
+
+.equals {
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 100px;
+    padding-bottom: 109px;
+}
+
+.parent :hover {
+    cursor: pointer; 
+}
+
+

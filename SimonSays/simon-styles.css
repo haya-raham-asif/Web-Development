@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+.score {
+    position: absolute;
+    left: 49.5%;
+    top: 20%;
+    font-family: Asap, sans-serif;
+    font-size: 40px;
+}
+.options :hover {
+    cursor: pointer;
+}
+
+.options {
+    text-align: center;
+}
+
+#yellow {
+    border: 60px solid #EBB53E;
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 0px;
+    margin: 10px;
+    position: absolute;
+    left: 40%;
+    top: 50%
+
+
+}
+
+#green {
+    border: 60px solid #479A5F;
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 0px;
+    margin: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#blue {
+    border: 60px solid #4F87EC;
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 0px;
+    margin: 10px;
+    position: absolute;
+    top: 30%;
+}
+
+#red {
+    border: 60px solid #CB4F40;
+    display: inline-block;
+
+    border-radius: 50%;
+    padding-right: 0px;
+    margin: 10px;
+    position: absolute;
+    top: 30%;
+    right: 50.5%;
+}
+
+.whoIsPlaying {
+    font-family: Asap, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    position: absolute;
+    left: 45.5%;
+    top: 600px;
+}
+
+

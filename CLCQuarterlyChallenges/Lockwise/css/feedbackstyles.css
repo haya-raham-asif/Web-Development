@@ -1,0 +1,187 @@
+body {
+  background-color: #D9D9D9;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#heading {
+display: flex;
+align-items: center;
+}
+
+h1 {
+  color: #23277A;
+padding-top: 15px;
+}
+
+#top-bar h1 {
+font-size: 50px;
+margin: 0px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #23277A;
+}
+
+hr {
+border-top: 1px solid #23277A;
+}
+
+#master-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 36px;
+  padding-top: 100px;
+  padding-left: 35.6rem;
+}
+
+/* Basic styles for form container */
+form {
+  padding: 2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#form-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Common styles for form groups and button groups */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.button-group {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.toggle-group {
+  display: flex;
+  font-weight: 600;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+/* Label styles */
+label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+/* Input and button styles */
+input,
+textarea,
+button {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  outline: none;
+  font-size: 14px;
+  padding: .4rem .6rem;
+  border-radius: 20px;
+  border-width: .1rem;
+  border-style: solid;
+  border-color: #A8A8A8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+/* Button-specific styles */
+button {
+  font-weight: 600;
+  background-color: #FFF;
+  color: #000;
+  padding: .6rem 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Text Area-specific styles */
+textarea {
+  resize: vertical;
+  min-height: 5rem;
+  max-height: 10rem;
+}
+
+/* Hover styles for buttons */
+button:hover {
+  background-color: #EDEDED;
+}
+
+/* Focus styles for both input and button elements */
+input:focus,
+textarea:focus,
+button:focus {
+  border-color: #23277A !important;
+}
+
+#feedback p{
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+#feedback a{
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #23277A;
+  background-color: #23277A;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 12px;
+}
+
+#feedback div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+#sticky-footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 8%;
+   background-color: #23277A;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  color: #ffffff;
+}
+
+
+
